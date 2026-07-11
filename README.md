@@ -12,7 +12,7 @@ It returns a verdict, `pass` or `gap`. On a gap, it names each missed policy and
 
 ## Install
 
-One line. No login, no signup. Free while in preview.
+One line. No login, no signup.
 
 **Claude Code:**
 
@@ -74,11 +74,3 @@ Result:
 ```
 
 A clean reply returns `verdict: "pass"` with an empty `misses` list. That means clear to send, not that nothing ran.
-
-## Pricing
-
-Open and free while in preview, metered per check under a shared monthly allowance. Paid per-account plans are coming (see the note below).
-
-## Later
-
-Payment is intentionally off for now. When it returns, each account will get its own key and pay for its own usage; the metering and the per-account billing are already built behind this endpoint and simply dormant. The frictionless path we are watching is the [Cloudflare Monetization Gateway](https://blog.cloudflare.com/monetization-gateway/) (x402, pay-per-call, no account), for when agents pay for themselves.
