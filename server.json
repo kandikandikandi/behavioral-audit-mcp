@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.kandikandikandi/behavioral-audit",
+  "title": "Agentic Diaries Audit",
+  "description": "Checks what a support agent knew but did not say against its policies. One hosted tool, disclosure_check: given the customer's message and the draft reply, it flags any should-know policy the situation made relevant that the draft failed to surface, and returns a pass or gap verdict with the line that should have been there. It detects and suggests; it does not rewrite, send anything, or keep the message beyond the check. Free tier, no login.",
+  "repository": {
+    "url": "https://github.com/kandikandikandi/behavioral-audit-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://agenticdiaries.com",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://receipts-mcp.vercel.app/api/mcp"
+    }
+  ]
+}
